@@ -5,7 +5,7 @@
 
 <Navbar />
 
-<main class="bg-gray-100">
+<main>
   <slot />
 </main>
 
@@ -13,6 +13,6 @@
 
 <style>
   main {
-    background: linear-gradient(0deg, white, rgb(231, 231, 231) 50%);
+    background: linear-gradient(0deg, white, rgb(218, 218, 218) 100%);
   }
 </style>

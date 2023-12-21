@@ -41,14 +41,22 @@
   }
 </script>
 
-<div id="map"></div>
+<section class="flex pt-[8rem] h-auto">
+  <div id="map" class="w-[45%]"></div>
 
-//TODO - Add a contact form to this page. EmailJS I've used before, but I
-remember it being a bit of a hassle, look into potential new solutions.
+  <!-- TODO - style contact button -->
+  <div class="w-[45%]">
+    <iframe
+      title="contact-form"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSd83ShBU4jIFGuRdC8bwVvFvJJgtYYo620pla7US9D0mSwsJA/viewform?embedded=true"
+      width="640"
+      height="821"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0">Loading…</iframe
+    >
+  </div>
+</section>
 
 <style>
-  #map {
-    height: 500px;
-    width: 500px;
-  }
 </style>
