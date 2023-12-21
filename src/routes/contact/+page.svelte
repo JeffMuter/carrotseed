@@ -6,6 +6,7 @@
   onMount(() => {
     // Load the Google Maps script
     const script = document.createElement("script");
+    // TODO: Replace YOUR_API_KEY with your Google Maps API key -> svelte might have a built-in way to do this -> google maps api key needs to be on the url, so im not sure how secure you can really get. Do some digging.
     script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY`;
     script.async = true;
     script.defer = true;
@@ -41,6 +42,9 @@
 </script>
 
 <div id="map"></div>
+
+//TODO - Add a contact form to this page. EmailJS I've used before, but I
+remember it being a bit of a hassle, look into potential new solutions.
 
 <style>
   #map {
