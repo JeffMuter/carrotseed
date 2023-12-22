@@ -3,13 +3,11 @@
 </script>
 
 <body>
-  <section class="flex justify-center items-center h-[80vh]">
-    <div class="glassy-div w-[50%]">
-      <img
-        class="h-[60%] w-auto"
-        src="/carrotseed-logo.webp"
-        alt="carrotseed logo"
-      />
+  <section class="flex justify-center h-[80vh]">
+    <div class="flex justify-between w-[90%]">
+      <div class="glassy-div w-[25%]"></div>
+      <div class="glassy-div w-[25%]"></div>
+      <div class="glassy-div w-[25%]"></div>
     </div>
   </section>
 </body>
